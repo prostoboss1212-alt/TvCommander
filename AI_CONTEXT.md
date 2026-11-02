@@ -114,7 +114,6 @@ cd "C:\Users\Ильясис Бутенкасис\TvCommander"
 ---
 
 ## 6. Синхронизация с GitHub и автоматические релизы
-- **CI/CD Workflow:** `.github/workflows/release.yml` (автоматическая сборка в Ubuntu и публикация релиза с прикреплением `TvCommander.apk`).
-- **Скрипт синхронизации:** `sync_github.ps1`.
-- При наличии удаленного репозитория GitHub пуш запускает Action, который обновляет релиз `latest` и постоянную ссылку:
-  `https://github.com/<username>/TvCommander/releases/latest/download/TvCommander.apk`
+- **Репозиторий:** `https://github.com/prostoboss1212-alt/TvCommander`
+- **Прямая ссылка на APK:** `https://github.com/prostoboss1212-alt/TvCommander/releases/latest/download/TvCommander.apk`
+- **Скрипт синхронизации:** [sync_github.ps1](file:///C:/Users/Ильясис%20Бутенкасис/TvCommander/sync_github.ps1). При сборке нового APK запуск `.\sync_github.ps1` автоматически пушит изменения в git и обновляет релиз `TvCommander.apk` на GitHub.
