@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- TV Outer Monitor Frame -->
+    <path
+        android:pathData="M24,28 h60 a6,6 0 0,1 6,6 v38 a6,6 0 0,1 -6,6 h-60 a6,6 0 0,1 -6,-6 v-38 a6,6 0 0,1 6,-6 z"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:angle="45"
+                android:endColor="#00E5FF"
+                android:startColor="#2979FF"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+
+    <!-- TV Stand Base -->
+    <path
+        android:pathData="M48,78 h12 v5 h-12 z M40,83 h28 v2.5 h-28 z"
+        android:fillColor="#00E5FF"
+        android:fillAlpha="0.8" />
+
+    <!-- Signal Pulse Wave (Top Antenna) -->
+    <path
+        android:pathData="M46,22 a11,11 0 0,1 16,0"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M40,17 a19,19 0 0,1 28,0"
+        android:strokeColor="#2979FF"
+        android:strokeWidth="2.0"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Center Remote D-Pad Navigation Symbol -->
+    <!-- D-Pad Ring -->
+    <path
+        android:pathData="M54,51 m-13,0 a13,13 0 1,1 26,0 a13,13 0 1,1 -26,0"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.2"
+        android:fillColor="#101827"
+        android:fillAlpha="0.7" />
+
+    <!-- D-Pad Directional Dots -->
+    <path android:pathData="M54,42 v2.5" android:strokeColor="#00E5FF" android:strokeWidth="2" android:strokeLineCap="round" />
+    <path android:pathData="M54,57.5 v2.5" android:strokeColor="#00E5FF" android:strokeWidth="2" android:strokeLineCap="round" />
+    <path android:pathData="M45,51 h2.5" android:strokeColor="#00E5FF" android:strokeWidth="2" android:strokeLineCap="round" />
+    <path android:pathData="M60.5,51 h2.5" android:strokeColor="#00E5FF" android:strokeWidth="2" android:strokeLineCap="round" />
+
+    <!-- Center OK Dot (Cyan Glow) -->
+    <path
+        android:pathData="M54,51 m-3.5,0 a3.5,3.5 0 1,1 7,0 a3.5,3.5 0 1,1 -7,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:angle="45"
+                android:endColor="#00E5FF"
+                android:startColor="#2979FF"
+                android:type="linear" />
+        </aapt:attr>
+    </path>
+</vector>
